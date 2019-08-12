@@ -1,0 +1,48 @@
+.app{
+    margin: 0px auto;
+    height: 400px;
+    width: 50%;
+}
+.title, .nextPlayer, .winner{
+    text-align: center;
+}
+.winner{
+    color: red;
+}
+.clickable{
+    display: flex;
+    flex-wrap: nowrap;
+    height: 300px;
+    border: 1px solid black;
+}
+
+.board{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: space-around;
+}
+.boardRow{
+    display: flex;
+    flex: 1 0 100%;
+    height: 33%;
+}
+.square{
+    flex: 1 0 32%;
+    border: 1px solid black;
+    height: 100%;
+    text-align: center;
+    font-size: 500%;
+}
+.action{
+    width: 50%;
+    height: 100%;
+    border: 1px solid black;
+}
+.rewindButton{
+    width: 200px;
+    height: 30px;
+}
